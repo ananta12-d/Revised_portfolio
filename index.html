@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ananta Kishore Swain — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">AKS</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon sun">☀️</span>
+      <span class="theme-icon moon">🌙</span>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#skills" onclick="closeMobile()">Skills</a>
+  <a href="#projects" onclick="closeMobile()">Projects</a>
+  <a href="#experience" onclick="closeMobile()">Experience</a>
+  <a href="#certifications" onclick="closeMobile()">Certifications</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="status-dot"><span class="dot"></span> Available for opportunities</div>
+  <p class="hero-eyebrow">Software Developer · IoT & Backend Engineering</p>
+  <h1 class="hero-name">
+    <span class="name-line">Ananta</span>
+    <span class="name-line accent-name">Kishore</span>
+    <span class="name-line">Swain</span>
+  </h1>
+  <p class="hero-title">Backend Systems · Real-Time IoT · Full-Stack</p>
+  <p class="hero-desc">
+    I build production-grade backend systems and real-time applications — scalable architectures,
+    event-driven pipelines, and IoT platforms. Currently pursuing MCA in AI at Manipal Institute of Technology.
+  </p>
+  <div class="hero-ctas">
+    <a href="#projects" class="btn-primary">View My Work</a>
+    <a href="#contact" class="btn-outline">Get in Touch</a>
+    <a href="resume.pdf" target="_blank" class="btn-outline">↓ Resume</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num">7</span>
+      <span class="stat-label">Months Of Experience</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">8+</span>
+      <span class="stat-label">Certifications</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">🥇</span>
+      <span class="stat-label">National Hackathon 2025</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">10+</span>
+      <span class="stat-label">Projects Built</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label fade-up">About Me</p>
+  <div class="about-grid">
+    <div class="about-image-placeholder fade-up">
+      <div class="img-icon">🧑‍💻</div>
+      <span>Your Photo Here</span>
+      <span class="img-hint">Recommended: 600×800px</span>
+    </div>
+    <div class="about-content">
+      <h2 class="fade-up">Building systems<br>that actually<br><em class="italic-accent">work at scale.</em></h2>
+      <p class="fade-up">
+        I'm a Software Developer based in Bhubaneswar, Odisha, specializing in
+        real-time backend systems and IoT engineering. Currently working at Insectika Biotech,
+        I design systems that handle real-time telemetry, device communication, and OTA firmware updates.
+      </p>
+      <p class="fade-up">
+        My journey spans hybrid mobile apps (Flutter), full-stack IoT platforms, and event-driven
+        architectures using MQTT, WebSockets, Redis, and RabbitMQ. I'm now pursuing an MCA in AI
+        at Manipal Institute of Technology, bridging IoT and intelligent systems.
+      </p>
+      <p class="fade-up">
+        🏆 <strong class="strong-heading">1st Place — National Hackathon 2025</strong> at ASBM University.<br>
+        Selected as <strong class="strong-heading">Cognizant GenC Analyst Trainee</strong>.
+      </p>
+      <div class="about-tags fade-up">
+        <span class="tag">FastAPI</span><span class="tag">MQTT</span>
+        <span class="tag">IoT Systems</span><span class="tag">PostgreSQL</span>
+        <span class="tag">Docker</span><span class="tag">Redis</span>
+        <span class="tag">Flutter</span><span class="tag">Linux</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label fade-up">Technical Skills</p>
+  <h2 class="section-heading fade-up">What I work with</h2>
+  <div class="skills-grid">
+    <div class="skill-card fade-up">
+      <div class="skill-category"><span class="skill-icon">⚡</span> Backend & APIs</div>
+      <div class="skill-items">
+        <span class="skill-pill">FastAPI</span><span class="skill-pill">Node.js</span>
+        <span class="skill-pill">Python</span><span class="skill-pill">REST APIs</span>
+        <span class="skill-pill">WebSockets</span><span class="skill-pill">RabbitMQ</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-category"><span class="skill-icon">🌐</span> Frontend</div>
+      <div class="skill-items">
+        <span class="skill-pill">React</span><span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">HTML5</span><span class="skill-pill">CSS3</span>
+        <span class="skill-pill">Flutter</span><span class="skill-pill">Dart</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-category"><span class="skill-icon">📡</span> IoT & Real-Time</div>
+      <div class="skill-items">
+        <span class="skill-pill">MQTT</span><span class="skill-pill">Embedded Systems</span>
+        <span class="skill-pill">OTA Updates</span><span class="skill-pill">Telemetry</span>
+        <span class="skill-pill">Device Mgmt</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-category"><span class="skill-icon">🗄️</span> Databases</div>
+      <div class="skill-items">
+        <span class="skill-pill">PostgreSQL</span><span class="skill-pill">MySQL</span>
+        <span class="skill-pill">Redis</span><span class="skill-pill">Time-Series DB</span>
+        <span class="skill-pill">SQLite</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-category"><span class="skill-icon">🔧</span> DevOps & Tools</div>
+      <div class="skill-items">
+        <span class="skill-pill">Docker</span><span class="skill-pill">Linux</span>
+        <span class="skill-pill">Git & GitHub</span><span class="skill-pill">Shell Scripting</span>
+        <span class="skill-pill">SAP SMP</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-category"><span class="skill-icon">☁️</span> Cloud & More</div>
+      <div class="skill-items">
+        <span class="skill-pill">Cloud Computing</span><span class="skill-pill">PHP</span>
+        <span class="skill-pill">C++</span><span class="skill-pill">DSA</span>
+        <span class="skill-pill">System Design</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label fade-up">Projects</p>
+  <h2 class="section-heading fade-up">Things I've built</h2>
+  <div class="projects-grid">
+
+    <div class="project-card fade-up">
+      <div class="project-image">
+        <div class="project-image-icon">📡</div>
+        <span>Project Screenshot / Preview</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-name">IoT Device Management Platform</h3>
+        <p class="project-desc">Production-level system enabling real-time monitoring, remote command execution, and OTA firmware updates for connected devices. Event-driven architecture at scale.</p>
+        <div class="project-stack">
+          <span class="stack-badge">FastAPI</span><span class="stack-badge">MQTT</span>
+          <span class="stack-badge">WebSockets</span><span class="stack-badge">Redis</span><span class="stack-badge">PostgreSQL</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ananta12-d" target="_blank" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-image">
+        <div class="project-image-icon">🔀</div>
+        <span>Project Screenshot / Preview</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-name">Flow-Based IoT Programming Engine</h3>
+        <p class="project-desc">Visual programming interface similar to Node-RED for creating real-time automation workflows. Drag-and-drop IoT pipeline creation without writing code.</p>
+        <div class="project-stack">
+          <span class="stack-badge">Python</span><span class="stack-badge">MQTT</span>
+          <span class="stack-badge">WebSockets</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ananta12-d/IOT-Learnings" target="_blank" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-image">
+        <div class="project-image-icon">📚</div>
+        <span>Project Screenshot / Preview</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-name">StudyHive</h3>
+        <p class="project-desc">A note-sharing platform for college students — upload, discover, and collaborate on study materials with organized subject categories and file management.</p>
+        <div class="project-stack">
+          <span class="stack-badge">PHP</span><span class="stack-badge">MySQL</span><span class="stack-badge">HTML/CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ananta12-d/studyhive" target="_blank" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-image">
+        <div class="project-image-icon">⚡</div>
+        <span>Project Screenshot / Preview</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-name">LifeOS — Productivity System</h3>
+        <p class="project-desc">Personal productivity system with tasks, goals, habits, and analytics dashboard. Built on FastAPI + PostgreSQL with a fully structured REST API.</p>
+        <div class="project-stack">
+          <span class="stack-badge">FastAPI</span><span class="stack-badge">PostgreSQL</span><span class="stack-badge">Python</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ananta12-d/lifeos" target="_blank" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-image">
+        <div class="project-image-icon">💻</div>
+        <span>Project Screenshot / Preview</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-name">Online Coding Platform</h3>
+        <p class="project-desc">Web-based coding platform for students to write, run, and submit code. Features problem sets, submission tracking, and leaderboard functionality.</p>
+        <div class="project-stack">
+          <span class="stack-badge">PHP</span><span class="stack-badge">MySQL</span><span class="stack-badge">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ananta12-d/online-coding-platform" target="_blank" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-image">
+        <div class="project-image-icon">🌿</div>
+        <span>Project Screenshot / Preview</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-name">e-PlantShopping</h3>
+        <p class="project-desc">E-commerce platform for plants with product browsing, cart management, and a clean responsive UI — a complete React shopping experience.</p>
+        <div class="project-stack">
+          <span class="stack-badge">React</span><span class="stack-badge">JavaScript</span><span class="stack-badge">CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ananta12-d/e-plantShopping" target="_blank" class="project-link">↗ GitHub</a>
+          <a href="https://ananta12-d.github.io/e-plantShopping/" target="_blank" class="project-link">↗ Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <p class="section-label fade-up">Experience</p>
+  <h2 class="section-heading fade-up">Where I've worked</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-date">Feb 2026 — Present</div>
+      <div class="timeline-role">Software Developer</div>
+      <div class="timeline-company">Insectika Biotech · Bhubaneswar</div>
+      <div class="timeline-desc">Develop and maintain full-stack applications supporting IoT device management and internal data systems. Backend API development, database integration, deployment workflows, and performance testing of production software.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Oct 2025 — Feb 2026</div>
+      <div class="timeline-role">Embedded Software Engineer</div>
+      <div class="timeline-company">Insectika Biotech · Bhubaneswar</div>
+      <div class="timeline-desc">Gained hands-on knowledge of IoT protocols (MQTT, HTTP), Python API connectivity, database integration, and full-stack IoT development including firmware and real-time device communication.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Jul 2025 — Sep 2025</div>
+      <div class="timeline-role">Computer Lab Assistant</div>
+      <div class="timeline-company">Creative Techno College · Angul</div>
+      <div class="timeline-desc">Assisted students in lab sessions, maintained computer systems, and supported teaching staff with technical resources and coursework materials.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Jul 2024 — Jan 2025</div>
+      <div class="timeline-role">Hybrid App Developer</div>
+      <div class="timeline-company">Static Consultancy · Bhubaneswar</div>
+      <div class="timeline-desc">Developed cross-platform Android applications using Flutter. Built a banking application UI for a client ensuring compatibility across multiple platforms. Earned SAP SMP Mobile Developer certification.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Jan 2023 — Mar 2023</div>
+      <div class="timeline-role">Application Developer</div>
+      <div class="timeline-company">Samnic Tech · Remote</div>
+      <div class="timeline-desc">Developed application-level features and contributed to client-facing software products remotely.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <p class="section-label fade-up">Certifications</p>
+  <h2 class="section-heading fade-up">Licenses & Credentials</h2>
+  <div class="certs-grid">
+    <div class="cert-card fade-up"><div class="cert-icon">⚛️</div><div class="cert-info"><div class="cert-name">Developing Front-End Apps with React</div><div class="cert-issuer">IBM</div><div class="cert-date">Mar 2026 · ID: BZ35GZQGNIPI</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">🐙</div><div class="cert-info"><div class="cert-name">Getting Started with Git and GitHub</div><div class="cert-issuer">IBM</div><div class="cert-date">Mar 2026 · ID: PKIZVN3Y096I</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">🌐</div><div class="cert-info"><div class="cert-name">Introduction to HTML, CSS & JavaScript</div><div class="cert-issuer">IBM</div><div class="cert-date">Mar 2026 · ID: WI80I90XZG66</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">☁️</div><div class="cert-info"><div class="cert-name">Introduction to Cloud Computing</div><div class="cert-issuer">IBM</div><div class="cert-date">Mar 2026 · ID: UQ68BLUEY6HQ</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">🐧</div><div class="cert-info"><div class="cert-name">Hands-on Introduction to Linux Commands & Shell Scripting</div><div class="cert-issuer">IBM</div><div class="cert-date">Mar 2026 · ID: W6ZHAWI8VOL9</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">💡</div><div class="cert-info"><div class="cert-name">Introduction to Software Engineering</div><div class="cert-issuer">IBM</div><div class="cert-date">Mar 2026 · ID: 8VGMKK1W07L0</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">🏢</div><div class="cert-info"><div class="cert-name">Selected for Cognizant GenC Analyst Trainee</div><div class="cert-issuer">Cognizant</div><div class="cert-date">Nov 2025 · Front-End, SQL & more</div></div></div>
+    <div class="cert-card fade-up"><div class="cert-icon">📱</div><div class="cert-info"><div class="cert-name">SAP Certified — SMP Hybrid & Native Mobile Developer</div><div class="cert-issuer">Static Consultancy</div><div class="cert-date">Sep 2024</div></div></div>
+  </div>
+  <div class="achievement-banner fade-up">🏆 &nbsp;1st Place — National Hackathon 2025 &nbsp;·&nbsp; ASBM University</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label fade-up">Contact</p>
+  <div class="contact-wrapper">
+    <div class="contact-info">
+      <h2 class="fade-up">Let's build<br>something <em class="italic-accent">great</em><br>together.</h2>
+      <p class="fade-up">Available for full-time roles, freelance projects, and collaborations. Whether it's a backend system, IoT platform, or full-stack product — let's talk.</p>
+      <div class="contact-links">
+        <a href="mailto:opbitu855@gmail.com" class="contact-link-item fade-up">
+          <span class="contact-link-icon">✉️</span> opbitu855@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/ananta-kishore-swain-6282472bb" target="_blank" class="contact-link-item fade-up">
+          <span class="contact-link-icon">💼</span> LinkedIn Profile
+        </a>
+        <a href="https://github.com/ananta12-d" target="_blank" class="contact-link-item fade-up">
+          <span class="contact-link-icon">🐙</span> github.com/ananta12-d
+        </a>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM — sends via mailto to opbitu855@gmail.com -->
+    <form class="contact-form fade-up" id="contactForm" onsubmit="sendEmail(event)">
+      <div class="form-group">
+        <label class="form-label" for="senderName">Your Name</label>
+        <input type="text" id="senderName" class="form-input" placeholder="John Doe" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="senderEmail">Your Email</label>
+        <input type="email" id="senderEmail" class="form-input" placeholder="john@example.com" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="msgSubject">Subject</label>
+        <input type="text" id="msgSubject" class="form-input" placeholder="Project enquiry / Job opportunity / Collaboration" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="msgBody">Message</label>
+        <textarea id="msgBody" class="form-textarea" placeholder="Tell me about your project or opportunity..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary" id="submitBtn" style="width:100%; margin-top:0.5rem; border:none; cursor:pointer;">
+        Send Message →
+      </button>
+      <p class="form-note">* This will open your email client with everything pre-filled and send directly to opbitu855@gmail.com</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-copy">© 2026 Ananta Kishore Swain · Built with craft.</span>
+  <div class="footer-socials">
+    <a href="https://github.com/ananta12-d" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/ananta-kishore-swain-6282472bb" target="_blank">LinkedIn</a>
+    <a href="mailto:opbitu855@gmail.com">Email</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
