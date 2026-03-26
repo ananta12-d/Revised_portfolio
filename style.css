@@ -791,3 +791,22 @@ footer {
   .certs-grid { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
 }
+
+.about-image-wrapper {
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.about-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.about-image-wrapper:hover .about-photo {
+  transform: scale(1.04);
+}
